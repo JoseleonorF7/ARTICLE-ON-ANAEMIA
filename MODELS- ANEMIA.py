@@ -1,14 +1,5 @@
 """
-================================================================================
 PIPELINE DE DETECCIÓN DE ANEMIA A PARTIR DE IMÁGENES DE PALMA
-Versión corregida y ampliada para uso en un artículo científico
-================================================================================
-
-Este script parte del pipeline original (EfficientNet-B0, comparación
-baseline vs. aprendizaje contrastivo supervisado / SupCon, evaluación
-cruzada San Martín <-> Ghana) y corrige los problemas de metodología
-detectados en la revisión de código, además de añadir el rigor estadístico
-que un revisor va a exigir para un dataset médico pequeño.
 
 Cada corrección está además comentada en el punto exacto del código donde
 aplica, bajo una etiqueta "[FIX-n]" para que puedas ubicarla y, si quieres,
